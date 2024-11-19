@@ -100,6 +100,24 @@ $(function () {
 	// Data Portfolio
 	const portfolioItems = [
 		{
+			image: "assets/img/10.png",
+			title: "SISTEM REKOMENDASI FILM",
+			description: "Details of Portfolio Item 3",
+			link: "https://github.com/ThoriqFathu/apptodo",
+		},
+		{
+			image: "assets/img/4.png",
+			title: "SEWAKUY",
+			description: "Details of Portfolio Item 1",
+			link: "https://github.com/ThoriqFathu/apptodo",
+		},
+		{
+			image: "assets/img/7.png",
+			title: "MADURESE TRANSLATION",
+			description: "Details of Portfolio Item 3",
+			link: "https://github.com/ThoriqFathu/apptodo",
+		},
+		{
 			image: "assets/img/1.png",
 			title: "E-LEARNING",
 			description: "Details of Portfolio Item 2",
@@ -117,12 +135,7 @@ $(function () {
 			description: "Details of Portfolio Item 1",
 			link: "https://github.com/ThoriqFathu/apptodo",
 		},
-		{
-			image: "assets/img/4.png",
-			title: "SEWAKUY",
-			description: "Details of Portfolio Item 1",
-			link: "https://github.com/ThoriqFathu/apptodo",
-		},
+		
 		{
 			image: "assets/img/5.png",
 			title: "KLASIFIKASI KNN",
@@ -132,12 +145,6 @@ $(function () {
 		{
 			image: "assets/img/6.png",
 			title: "SISTEM WARUNG",
-			description: "Details of Portfolio Item 3",
-			link: "https://github.com/ThoriqFathu/apptodo",
-		},
-		{
-			image: "assets/img/7.png",
-			title: "MADURESE TRANSLATION",
 			description: "Details of Portfolio Item 3",
 			link: "https://github.com/ThoriqFathu/apptodo",
 		},
@@ -153,12 +160,7 @@ $(function () {
 			description: "Details of Portfolio Item 3",
 			link: "https://github.com/ThoriqFathu/apptodo",
 		},
-		{
-			image: "assets/img/10.png",
-			title: "SISTEM REKOMENDASI FILM",
-			description: "Details of Portfolio Item 3",
-			link: "https://github.com/ThoriqFathu/apptodo",
-		},
+		
 	];
 
 	// Render Portfolio
@@ -168,7 +170,7 @@ $(function () {
 	portfolioItems.forEach((item, index) => {
 		// Portfolio HTML
 		const portfolioHTML = `
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6" style="margin-bottom:10px;">
 						<div class="portfolio-item">
 							<img src="${item.image}" class="img-res" alt="${item.title}" />
 							<div class="portfolio-item-info">

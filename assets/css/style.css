@@ -239,7 +239,7 @@ body {
 
 .hero .col-md-6:first-child {
 	position: absolute;
-	top: 35%;
+	top: 40%;
 	left: 0;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -259,7 +259,7 @@ body {
 	font-size: 46px;
 	font-weight: 700;
 	margin: 0 0 15px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .job-title {
